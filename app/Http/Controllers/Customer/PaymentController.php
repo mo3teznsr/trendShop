@@ -323,10 +323,10 @@ class PaymentController extends Controller
                 $customer['phone'],
                 ''
             );
-            if (empty($customer['phone'])) {
-                Toastr::error(translate('please_update_your_phone_number'));
-                return route('checkout-payment');
-            }
+            // if (empty($customer['phone'])) {
+            //     Toastr::error(translate('please_update_your_phone_number'));
+            //     return route('checkout-payment');
+            // }
         }
 
         $paymentInfo = new PaymentInfo(
