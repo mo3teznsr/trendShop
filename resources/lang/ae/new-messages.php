@@ -8305,4 +8305,7 @@ return [
 	"registration_successful" => "Registration successful",
 	"select_shipping_method" => "Select shipping method",
 	"no_zip_to_deliver" => "No zip to deliver",
+	"Order_Placed_Successfully" => "Order Placed Successfully",
+	"delivery_Address" => "Delivery Address",
+	"The_phone_number_may_not_be_greater_than_20_characters" => "The phone number may not be greater than 20 characters",
 ];

@@ -76,7 +76,7 @@ class StripePaymentController extends Controller
             'payment_method_types' => ['card'],
             'line_items' => [[
                 'price_data' => [
-                    'currency' => $currency_code ?? 'usd',
+                    'currency' =>  'AED',
                     'unit_amount' => round($payment_amount, 2) * 100,
                     'product_data' => [
                         'name' => $business_name,

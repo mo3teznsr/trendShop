@@ -10,7 +10,7 @@
     <meta name="msvalidate.01" content="{{getWebConfig('bing_webmaster_code')}}">
     <meta name="baidu-site-verification" content="{{getWebConfig('baidu_webmaster_code')}}">
     <meta name="yandex-verification" content="{{getWebConfig('yandex_webmaster_code')}}">
-
+    <meta http-equiv="Content-Security-Policy" content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ $web_config['fav_icon']['path'] }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ $web_config['fav_icon']['path'] }}">
